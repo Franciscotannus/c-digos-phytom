@@ -1,9 +1,6 @@
 import os
 mensagem = []
-usuarios = []
 nomeUsu = input("Digite seu nickname: ")
-usuarios.append(nomeUsu)
-print(usuarios)
 
 while True:
     os.system('cls')
@@ -14,6 +11,7 @@ while True:
     print("_________________________________________________")   
     texto= input("Mensagem: ")
     if texto == "fim":
+        os.system('cls')
         break
     
     mensagem.append({
